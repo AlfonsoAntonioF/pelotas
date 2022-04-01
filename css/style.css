@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: linear-gradient(315deg,#fff,#d7e1ec 75%);
+}
+.menu{
+    width: 100%;
+    position: fixed;
+    background-color: rgb(149, 215, 248);
+    background: linear-gradient(to top,rgb(149, 215, 248),rgb(152, 148, 250) );
+    height: auto;
+    align-content: space-around 32px;
+}
+
+.menu ul{
+    display: flex;
+    align-content: space-around 33%;
+
+}
+
+ul li{
+    
+    display: flex;
+    margin: 2rem;
+
+}
+.buap{
+    position: relative;
+    width: 3rem;
+}
+.buap img{
+    width: 20vh;
+    height: auto;
+}
+.fcfm img{
+    width: 20vh;
+    height: auto;
+}
+.texto{
+    width: 70%;
+    display: inline;
+    align-content: center;
+}
+
+.texto p{
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:2px 2px 8px #4e5be6 ; 
+
+}
+
+.despeje{
+    width: 100;
+    height: 235px;
+}
+.titulos{
+    align-content: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    background-color: #00acee;
+    margin: 5px;
+    padding: 5px;
+
+}
+.play{
+    align-content: center;
+    width: 400px;
+    margin: 1% 30% 0 30%;
+    background-color: #1877f2;
+}
+.contenedor .boton {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgb(0, 0, 0,0.1);
+    transition: all .3s ease-out;
+}
+.contenedor .boton:hover{
+    width: 200px;
+}
+
+.contenedor .boton .icono{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    text-align: center;
+    transition: all .3s ease-out;
+}
+.contenedor .boton:nth-child(1):hover .icono {
+    background: #1877f2;
+    color: #fff;
+}
+.contenedor .boton:nth-child(2):hover .icono {
+    background: #00acee;
+    color: #fff;
+}
+.contenedor .boton:nth-child(3):hover .icono {
+    background: linear-gradient(30deg, #3040e6,#d41356,#e74f31,#e5ff3a);
+    color: #fff;
+}
+.contenedor .boton:nth-child(4):hover .icono {
+    background: #171515;
+    color: #fff;
+}
+
+.contenedor .boton i{
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.contenedor .boton span{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 500;
+    margin-left: 10px;
+}
